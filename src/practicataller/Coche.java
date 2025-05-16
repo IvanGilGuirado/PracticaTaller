@@ -12,8 +12,8 @@ public class Coche {
     private Rueda ruedaTD;
     private Puerta puertaI;
     private Puerta puertaD;
-    
-    // Constructor
+    private String nombre;
+     // Constructor
     public Coche() {
         this.motor = new Motor();
         this.ruedaDI = new Rueda();
